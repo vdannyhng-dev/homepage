@@ -16,8 +16,9 @@ function App()
 		<div className="page">
 			{/* Hero Section */}
 			<header className="hero" data-aos="fade-down">
-				<h1>Hi, I'm Van Danny Hoang</h1>
-				<p>I'm a software developer who loves building fast, user-friendly web applications.</p>
+				<h1>Van Danny Hoang</h1>
+				<h2>Software Developer at StadlerRail AG | 🇨🇭/🇻🇳</h2>
+				<p>Passionate about building awesome things.</p>
 				<a href="#projects" className="btn">View my work</a>
 			</header>
 
