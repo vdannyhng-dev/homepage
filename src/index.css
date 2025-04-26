@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+/* Default values */
+:root {
+  --primary-color: #49535c;
+}
+
 body {
   background: linear-gradient(135deg, #1f1f1f 0%, #2c2c2c 100%);
   color: #ffffff;
@@ -20,14 +25,18 @@ body {
 
 /* Hero Section */
 .hero {
-  text-align: center;
   margin-bottom: 4rem;
 }
 
 .hero h1 {
   font-size: 3rem;
-  margin-bottom: 1rem;
-  color: #61dafb;
+  color: var(--primary-color);
+}
+
+.hero h2 {
+  font-size: 1.2rem;
+  color: #bbbbbb;
+  font-weight: bold;
 }
 
 .hero p {
@@ -38,7 +47,7 @@ body {
 
 .btn {
   display: inline-block;
-  background-color: #61dafb;
+  background-color: var(--primary-color);
   color: #1f1f1f;
   padding: 0.75rem 1.5rem;
   border-radius: 30px;
